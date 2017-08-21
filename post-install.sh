@@ -23,7 +23,7 @@ then
 fi
 
 # Ajout des binaires Homebrew au PATH
-echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bashrc
 
 # Mettre à jour la liste des applications disponibles
 brew update
@@ -37,9 +37,6 @@ open -a Dropbox
 # et mettre à jour celles déjà présentes
 brew bundle
 
-echo "Finalisation de l'installation de The Fuck avec l'alias \"whoops\""
-echo 'eval "$(thefuck --alias whoops)"' >> ~/.zshrc
-
 echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
 sudo gem update --system --silent
@@ -51,11 +48,6 @@ echo "Installation des outils de développement Node"
 npm install -g npm-check-updates
 npm install grunt -g
 npm install grunt-cli -g
-
-echo "Finalisation de l'installation de PHP"
-echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
-brew services start homebrew/php/php71
-brew services start homebrew/apache/httpd24
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
