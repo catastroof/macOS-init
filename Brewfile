@@ -52,8 +52,10 @@ brew 'node'
 brew 'pkg-config'
 brew 'ruby'
 cask 'dbeaver-community'
+cask 'docker'
 cask 'github-desktop'
 cask 'intellij-idea-ce'
+cask 'sourcetree'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
@@ -70,6 +72,7 @@ brew 'ffmpeg'
 
 # Divertissement
 cask 'steam'
+#cask 'minecraft'
 
 # Communication
 cask 'skype'
