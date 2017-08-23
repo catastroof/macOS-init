@@ -25,9 +25,9 @@ sudo rm -f /etc/apache2/httpd.conf
 sudo ln -s ~/Dropbox/Settings/httpd.conf /etc/apache2/httpd.conf
 sudo apachectl restart
 
-echo "Installation de oh-my-zsh"
+# echo "Installation de oh-my-zsh"
 # Installation de oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo ""
 echo "ET VOILÀ !"

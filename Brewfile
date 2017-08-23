@@ -37,7 +37,7 @@ mas 'The Unarchiver', id: 425424353
 mas 'Memory Clean 2', id: 1114591412
 
 # Backup et synchro
-#brew 'mackup'
+brew 'mackup'
 #cask 'carbon-copy-cloner'
 #cask 'crashplan'
 #cask 'google-backup-and-sync'
@@ -60,7 +60,6 @@ cask 'sourcetree'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
-#mas 'Xcode', id: 497799835
 
 # Images
 brew 'graphicsmagick'
