@@ -48,6 +48,7 @@ echo "Installation des outils de développement Node"
 npm install -g npm-check-updates
 npm install grunt -g
 npm install grunt-cli -g
+npm install http-server -g
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
